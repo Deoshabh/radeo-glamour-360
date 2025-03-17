@@ -99,7 +99,7 @@ const ShoeModel: React.FC = () => {
                 }}
               ></div>
               <img 
-                src="https://images.unsplash.com/photo-1566150905458-1bf1fc113c0d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3" 
+                src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=2080&auto=format&fit=crop" 
                 alt="Premium Leather Shoe" 
                 className="w-full h-auto object-contain rounded-xl shadow-2xl"
               />
