@@ -58,7 +58,7 @@ const Index = () => {
 
   if (isLoading) {
     return (
-      <div className="h-screen w-full flex flex-col items-center justify-center bg-leather-dark">
+      <div className="h-screen w-full flex flex-col items-center justify-center bg-ivory">
         <div className="w-24 h-24 relative">
           <motion.div 
             className="absolute w-full h-full border-4 border-t-gold border-r-gold-light border-b-gold-dark border-l-transparent rounded-full"
@@ -99,7 +99,7 @@ const Index = () => {
         title="Celebrate Tradition in Style – Explore Ethnic Wear"
         description="Our collection of men's ethnic wear combines traditional designs with modern aesthetics, perfect for celebrations and special occasions."
         imageUrl="https://images.unsplash.com/photo-1594549181132-9045fed330ce?q=80&w=1964&auto=format&fit=crop"
-        bgClass="bg-gradient-to-br from-royalblue-dark to-royalblue"
+        bgClass="bg-gradient-to-r from-ivory to-ivory-dark"
         direction="left"
         animationType="slide"
       />
@@ -109,7 +109,7 @@ const Index = () => {
         title="Graceful Elegance – Shop Women's Ethnic Wear"
         description="Exquisite lehengas, sarees, and suits crafted with intricate detailing and premium fabrics for the modern woman."
         imageUrl="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?q=80&w=1972&auto=format&fit=crop"
-        bgClass="bg-gradient-to-br from-maroon-dark to-maroon"
+        bgClass="bg-gradient-to-r from-ivory-dark to-ivory"
         direction="right"
         animationType="twirl"
       />
@@ -121,7 +121,7 @@ const Index = () => {
       {/* Scroll to top button */}
       <motion.a 
         href="#"
-        className="fixed right-6 bottom-6 w-12 h-12 bg-gold text-black rounded-full flex items-center justify-center shadow-lg z-50 hover:bg-gold-light transition-colors duration-300"
+        className="fixed right-6 bottom-6 w-12 h-12 bg-gold text-leather-dark rounded-full flex items-center justify-center shadow-md z-50 hover:bg-gold-light transition-colors duration-300"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 2, duration: 0.5 }}

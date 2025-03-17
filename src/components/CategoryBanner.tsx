@@ -97,8 +97,8 @@ const CategoryBanner: React.FC<CategoryBannerProps> = ({
             <span className="inline-block px-4 py-1 border border-gold/30 rounded-full text-gold text-sm tracking-wider mb-4">
               PREMIUM COLLECTION
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-ivory">{title}</h2>
-            <p className="text-lg mb-8 text-ivory-dark">{description}</p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-leather-dark">{title}</h2>
+            <p className="text-lg mb-8 text-leather">{description}</p>
             <button className="gold-button group">
               <span className="relative z-10 flex items-center">
                 Shop Now
@@ -118,7 +118,7 @@ const CategoryBanner: React.FC<CategoryBannerProps> = ({
               <img 
                 src={imageUrl} 
                 alt={title} 
-                className="w-full h-auto rounded-xl shadow-2xl"
+                className="w-full h-auto rounded-xl shadow-lg"
               />
               
               {/* Subtle 3D lighting effect */}
@@ -129,9 +129,9 @@ const CategoryBanner: React.FC<CategoryBannerProps> = ({
                 <div 
                   className="w-[80%] h-10 mt-4 rounded-full mx-auto"
                   style={{
-                    background: 'linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%)',
+                    background: 'linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 100%)',
                     transform: 'rotateX(60deg) translateZ(-30px) scale(1)',
-                    opacity: 0.3,
+                    opacity: 0.2,
                     filter: 'blur(4px)'
                   }}
                 ></div>

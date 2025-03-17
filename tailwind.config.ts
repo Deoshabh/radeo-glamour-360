@@ -26,9 +26,9 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				leather: {
-					DEFAULT: '#3E2723',
-					light: '#5D4037',
-					dark: '#2E1E18',
+					DEFAULT: '#A68A64',
+					light: '#C4B097',
+					dark: '#8C714E',
 				},
 				gold: {
 					DEFAULT: '#D4AF37',
@@ -36,9 +36,9 @@ export default {
 					dark: '#A67C00',
 				},
 				maroon: {
-					DEFAULT: '#800020',
-					light: '#C41E3A',
-					dark: '#560014',
+					DEFAULT: '#9E5A63',
+					light: '#C4858E',
+					dark: '#723F47',
 				},
 				ivory: {
 					DEFAULT: '#FFFFF0',
@@ -46,9 +46,9 @@ export default {
 					dark: '#E6E6D8',
 				},
 				royalblue: {
-					DEFAULT: '#002366',
-					light: '#0039A6',
-					dark: '#001233',
+					DEFAULT: '#4A6FA5',
+					light: '#7B93BC',
+					dark: '#2A4D80',
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
